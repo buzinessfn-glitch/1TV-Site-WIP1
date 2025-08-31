@@ -1,0 +1,266 @@
+/* general*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/*padding */
+section {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  background-color: #000;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+header nav ul li {
+  margin: 0;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logo {
+  margin-top: 10px;
+  max-width: 120px;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Browse Merch button cool animation huh :D? */
+.btn-white-black {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  padding: 12px 30px;
+  border: 2px solid black;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-white-black:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+/* SOCIALS */
+.socials {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.socials h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 30px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ccc;
+}
+
+/* SHOP */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product {
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.add-to-cart {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background-color: #444;
+}
+
+/* ABOUT US */
+#about img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* OUR TEAM */
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.team-category {
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.team-category h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #444;
+  padding-bottom: 5px;
+}
+
+.team-category ul {
+  list-style: none;
+  padding: 0;
+}
+
+.team-category li {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #ccc;
+}
+
+/* CONTACT */
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#contact-form input {
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: none;
+}
+
+#contact-form button {
+  padding: 12px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#contact-form button:hover {
+  background-color: #444;
+}
+
+/* CART & CHECKOUT */
+#cart, #checkout {
+  text-align: center;
+}
+
+.cart-products {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.cart-products .product {
+  background-color: #1f1f1f;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.checkout {
+  background-color: #333;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.checkout:hover {
+  background-color: #444;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+  color: #777;
+  margin-top: 40px;
+}
